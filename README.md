@@ -1,5 +1,5 @@
 # Tower of Hanoi
-Using React and Ramda.
+Using React and Ramda.  Still working through understanding FP (and React).  So there are definitely opportunities to revisit this and continue to refractor for FP.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
