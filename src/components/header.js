@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './header.css';
 
 const MIN_HEIGHT = 5;
@@ -38,6 +39,11 @@ class Header extends Component {
         );
     }
 }
+
+Header.propTypes = {
+    onHeightChange: PropTypes.func.isRequired,
+    onStart: PropTypes.func.isRequired
+};
 
 
 export default Header;
